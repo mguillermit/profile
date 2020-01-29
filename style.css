@@ -1,0 +1,107 @@
+@media (min-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAF9F8;
+  text-decoration: none;
+  color: #434343;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  color: #ED6103;
+  line-height: 30px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Ubuntu Mono';
+}
+
+a {
+  text-decoration: none;
+  color: #373B44;
+}
+
+a:hover {
+  color: #ED6103;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.clear-boxes {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer-icons {
+  font-size: 50px;
+  margin: 5px auto;
+}
+
+.button-orange {
+    color: #fff;
+    background: #ed6103;
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    border: solid 2px #ed6103;
+    border-radius: 34px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
